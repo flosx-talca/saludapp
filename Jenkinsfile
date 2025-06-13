@@ -1,7 +1,18 @@
 pipeline {
     agent any
 
+    tools {
+        maven 'Maven 3.9.10'
+        jdk 'JDK21'
+    }
+
     stages {
+        stage('Checkout') {
+            steps {
+                git 'https://github.com/flosx-talca/saludapp.git'
+            }
+        }
+
         stage('Compile') {
             steps {
                 sh 'mvn clean compile'
