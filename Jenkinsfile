@@ -1,7 +1,8 @@
 pipeline {
     agent any
 
-       stages {
+
+    stages {
         stage('Checkout') {
             steps {
                 git 'https://github.com/flosx-talca/saludapp.git'
