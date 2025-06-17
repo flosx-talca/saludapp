@@ -1,4 +1,4 @@
-package com.equipo.saludoTest;
+package com.equipo.saludotest;
 
 import org.junit.jupiter.api.Test;
 

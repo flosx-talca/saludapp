@@ -1,4 +1,4 @@
-package com.equipo.saludoTest;
+package com.equipo.saludotest;
 
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
